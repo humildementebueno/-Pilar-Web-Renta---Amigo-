@@ -38,9 +38,6 @@ npm install
 ng serve
 ```
 Navega a http://localhost:4200/ en tu navegador. La aplicación se recargará automáticamente si cambias algún archivo de origen.
-```bash
-ng serve
-```
 Para ejecutar pruebas de extremo a extremo, primero agrega un paquete que implemente capacidades de prueba y luego usa:
 ```bash
 ng e2e
