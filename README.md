@@ -1,27 +1,46 @@
-# RentaAmigo
+# Renta Amigo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Renta Amigo es una página web diseñada para ofrecer diferentes servicios que fomentan momentos recreativos, la posibilidad de conocer nuevas personas y disfrutar de diversas experiencias.
 
-## Development server
+## Características de la Aplicación
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Navegación fácil:** Interfaz intuitiva a través de un menú.
+- **Sección de anuncios:** Información actualizada sobre eventos disponibles.
+- **Características del servicio:** Descripción detallada de los servicios ofrecidos.
+- **Pasos para adquirir servicios:** Instrucciones claras sobre cómo acceder a los servicios.
+- **Testimonios:** Opiniones y experiencias de usuarios previos.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Angular
 
-## Build
+| Versión de Node | Versión de Angular | Descripción               |
+| :-------------- | :---------------- | :------------------------- |
+| `14 o superior` | `18`             | Framework para aplicaciones web utilizando SCSS y TypeScript. |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instrucciones para Iniciar el Proyecto
 
-## Running unit tests
+### Requisitos Previos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Asegúrate de tener instalados [Node.js](https://nodejs.org/) (versión 14 o superior) y [Angular CLI](https://angular.io/cli).
 
-## Running end-to-end tests
+### Clonar el Repositorio
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone <URL del repositorio>
+```
+### Instalar Dependencias
+```bash
+npm install
+```
+### Iniciar el Servidor de Desarrollo
+```bash
+ng serve
+```
+Navega a http://localhost:4200/ en tu navegador. La aplicación se recargará automáticamente si cambias algún archivo de origen.
+Para ejecutar pruebas de extremo a extremo, primero agrega un paquete que implemente capacidades de prueba y luego usa:
+```bash
+ng e2e
+```
+### LICENCIA
+Este proyecto está bajo la licencia MIT.
